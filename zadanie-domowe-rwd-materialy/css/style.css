@@ -280,14 +280,15 @@ p {
 
 #contact .social-icons a:hover {
     color: #213b50;
-    background-color: #fff;     
+    background-color: #fff;
 }
 
 #contact form {
-padding-top: 60px;    
+    padding-top: 60px;
 }
 
-#contact form input:not([type='submit']), #contact form textarea {
+#contact form input:not([type='submit']),
+#contact form textarea {
     width: 100%;
     background-color: #2b4a64;
     border: 0 solid #fff;
@@ -296,7 +297,8 @@ padding-top: 60px;
     outline: none;
 }
 
-#contact form input:not([type='submit']):focus, #contact form textarea:focus {
+#contact form input:not([type='submit']):focus,
+#contact form textarea:focus {
     background-color: #4c6f8d;
 }
 
@@ -315,4 +317,21 @@ padding-top: 60px;
     background-color: #fff;
     color: #1ac056;
 }
+
+
 /* kontakt - stop */
+
+
+/* footer - start */
+
+footer {
+    background-color: #142634;
+    padding: 0 60px;
+    color: #fff;
+}
+
+footer p {
+margin: 0;
+}
+
+/* footer - stop */
