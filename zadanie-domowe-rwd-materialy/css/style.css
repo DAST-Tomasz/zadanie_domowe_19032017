@@ -73,6 +73,10 @@ p {
     color: #291f1a;
 }
 
+#main-nav label, 
+#main-nav #drop {
+    display: none;
+}
 
 /* nawigacja - menu - stop */
 
