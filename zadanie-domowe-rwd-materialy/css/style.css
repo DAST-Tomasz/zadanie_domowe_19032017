@@ -36,7 +36,6 @@ p {
     font-weight: 300;
 }
 
-
 /* style generalne - stop */
 
 
@@ -196,6 +195,23 @@ p {
     margin: auto;
 }
 
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+}
+
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner a {
+    color: #fff;
+    transition: all .3s;
+}
+
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner a:hover {
+    color: #1ac056;
+    transition: all .3s;
+}
+
 #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
 }
@@ -208,4 +224,15 @@ p {
      background-image: url(../img/portfolio3.jpg);
 }
 
+
+
 /* sekcja portfolio - stop */
+
+/* footer - start */
+.footer {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #213b50;
+    }
+
+/* footer - stop */
